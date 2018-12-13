@@ -1,7 +1,7 @@
-let uniqueId = (function () {
+const uniqueId = (function () {
     let id = 0;
 
-    let privateMethod = function () {
+    const privateMethod = function () {
         console.log("Private Method");
     };
 

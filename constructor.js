@@ -7,5 +7,5 @@ Person.prototype.printInfo = function () {
     console.log("Name: " + this.name + "; Age: " + this.age);
 };
 
-let taras = new Person("Taras", 19);
+const taras = new Person("Taras", 19);
 taras.printInfo();

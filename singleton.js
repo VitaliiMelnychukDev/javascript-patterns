@@ -1,8 +1,8 @@
-let Singleton = (function () {
+const Singleton = (function () {
     let instance;
 
     function Init() {
-        let settings = {};
+        const settings = {};
         this.setSetting = function (name, value) {
             settings[name] = value;
         };
@@ -27,10 +27,10 @@ let Singleton = (function () {
     }
 })();
 
-let settings = Singleton.getInstance();
+const settings = Singleton.getInstance();
 settings.setSetting('dbEngine', 'MySQL');
 console.log(settings.getSetting('dbEngine'));
 
-let settings2 = Singleton.getInstance();
+const settings2 = Singleton.getInstance();
 console.log(settings2.getSetting('dbEngine'));
-console.log(settings2.getSetting('notExistOption'));
+console.log(settings2.getSetting('notExistedOption'));
