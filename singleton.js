@@ -28,9 +28,9 @@ const Singleton = (function () {
 })();
 
 const settings = Singleton.getInstance();
-settings.setSetting('dbEngine', 'MySQL');
-console.log(settings.getSetting('dbEngine'));
+settings.setSetting("dbEngine", "MySQL");
+console.log(settings.getSetting("dbEngine"));
 
 const settings2 = Singleton.getInstance();
-console.log(settings2.getSetting('dbEngine'));
-console.log(settings2.getSetting('notExistedOption'));
+console.log(settings2.getSetting("dbEngine"));
+console.log(settings2.getSetting("notExistedOption"));

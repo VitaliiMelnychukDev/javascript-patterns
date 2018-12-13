@@ -1,6 +1,6 @@
-const PURPOSE_GAME = 'game';
-const PURPOSE_WORK = 'work';
-const PURPOSE_MUSIC = 'music';
+const PURPOSE_GAME = "game";
+const PURPOSE_WORK = "work";
+const PURPOSE_MUSIC = "music";
 
 const RAM = function (memory) {
     this.memory = memory;

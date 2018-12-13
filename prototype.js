@@ -4,8 +4,8 @@ const Car = function (make, model) {
 };
 
 Car.prototype.printInfo = function () {
-    console.log('Car make: ' + this.make + '; Car model: ' + this.model + '.');
+    console.log("Car make: " + this.make + "; Car model: " + this.model + ".");
 };
 
-const audiA8 = new Car('Audi', 'A8');
+const audiA8 = new Car("Audi", "A8");
 audiA8.printInfo();
